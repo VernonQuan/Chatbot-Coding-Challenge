@@ -1,0 +1,20 @@
+.side-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  display: block;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  color: #ababab;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.15s ease, color 0.15s ease;
+  font-size: larger;
+}
+
+.link:hover {
+  background: #f0f0f0;
+  color: #000;
+}

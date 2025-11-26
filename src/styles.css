@@ -1,1 +1,44 @@
-:root{--bg:#0f172a;--card:#0b1220;--accent:#8ab4ff;--muted:#94a3b8;--glass:rgba(255,255,255,0.04)}body{font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial,Helvetica;margin:0;background:linear-gradient(180deg,#071028 0%,#081226 50%);color:#e6eef6}*{box-sizing:border-box} .app{max-width:1100px;margin:40px auto;padding:24px} .app-header{display:flex;gap:24px;align-items:center;padding:14px 0} .app-header h1{font-size:20px;margin:0} .subtitle{color:var(--muted);margin:4px 0 0;font-size:13px} .content{display:flex;gap:24px;margin-top:18px} .chat-panel{flex:1;background:var(--card);padding:16px;border-radius:10px;box-shadow:0 8px 24px rgba(4,10,16,.5)} .messages{display:flex;flex-direction:column;gap:8px;min-height:140px;margin-bottom:12px} .message{padding:10px 12px;border-radius:8px;max-width:70%;width:fit-content} .message.bot{background:linear-gradient(90deg,#0f172a,#13223a);color:#9cc6ff} .message.user{background:#0b1a29;color:#fff;margin-left:auto} .input-row{display:flex;gap:8px} .input-row input{flex:1;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit} .input-row button{padding:8px 12px;border-radius:8px;border:0;background:var(--accent);color:#012;cursor:pointer} .notes{width:320px;padding:12px;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));border-radius:10px;color:var(--muted)} .notes h2{margin:0 0 8px 0;font-size:15px}
+:root {
+  --bg: #0f172a;
+  --card: #0b1220;
+  --accent: #8ab4ff;
+  --muted: #94a3b8;
+  --glass: rgba(255, 255, 255, 0.04);
+}
+body {
+  font-family: Inter, system-ui, Segoe UI, Roboto, 'Helvetica Neue', Arial, Helvetica;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: linear-gradient(180deg, #071028 0%, #081226 50%);
+  color: #e6eef6;
+}
+* {
+  box-sizing: border-box;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+.main-content {
+  display: flex;
+  height: calc(100dvh - 60px);
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+.page {
+  flex: 1 1 auto;
+  overflow: auto;
+  padding: 2rem;
+}
+
+.sidebar {
+  flex: 0 0 240px;
+  border-right: 1px solid #ddd;
+  margin: 0;
+  padding: 1rem;
+  overflow: hidden;
+}
