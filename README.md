@@ -15,3 +15,5 @@ npm install
 ```powershell
 npm run dev
 ```
+
+3. Navigate to http://localhost:5173/

@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <img
-        src="https://placehold.co/120x40/007bff/ffffff?text=Vernon+Quan&font=roboto"
+        src="https://placehold.co/120x40/007bff/ffffff?text=Vernon+Quan+Logo&font=roboto"
         alt="Logo"
       />
       <input
