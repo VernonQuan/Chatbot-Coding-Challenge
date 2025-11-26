@@ -42,3 +42,10 @@ body {
   padding: 1rem;
   overflow: hidden;
 }
+
+@media (max-width: 768px) {
+  .sidebar {
+    flex: 0 0 64px;
+    padding: 0.5rem;
+  }
+}
