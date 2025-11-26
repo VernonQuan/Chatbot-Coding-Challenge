@@ -1,13 +1,12 @@
-# Chatbot Website — Coding Challenge
+# Chatbot-Coding-Challenge
 
-This is a lightweight scaffold for the Chatbot Website coding challenge.
+This repository is the Chatbot Website coding challenge scaffold built with React + TypeScript.
 
 Features
 - React + TypeScript (Vite)
 - ESLint + Prettier
 - GitHub Actions workflow for lint + build
 - Minimal, accessible sample chat UI
-- Dockerfile to serve built static assets
 
 Quick start
 
@@ -39,14 +38,10 @@ npm run format
 
 GitHub
 
-- Initialize a remote repository on GitHub and push your local repo to it. Example:
+If you haven't already created the remote on GitHub you can push this repository with the following commands:
 
 ```powershell
-git init
-git add .
-git commit -m "Initial scaffold"
-# create a GitHub repo (from the web or gh cli) and then:
-# git remote add origin git@github.com:your-username/chatbot-website-coding-challenge.git
+git remote add origin git@github.com:VernonQuan/Chatbot-Coding-Challenge.git
 git push -u origin main
 ```
 
